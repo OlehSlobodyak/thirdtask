@@ -1,39 +1,107 @@
-/*html{*/
-/*    overflow-x: hidden;*/
-/*}*/
-/*.banner{*/
-/*    margin-bottom: -20px;*/
-/*    margin-left: -20px;*/
-/*    margin-right: -25px;*/
-/*    margin-top: -20px;*/
-/*    max-height: 1050px;*/
-/*    max-width: 1680px;*/
-/*    background-size: 100%;*/
-    
-/*}*/
+#logo{
+    font-family: fantasy;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
 
 .toptext{
-    position: absolute;
-    font-family: fantasy;
-    color: white;
-    padding-left: 40px;
-    padding-top: 500px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.sublogo{
+    font-size: 16px;
     
 }
 
-.subtitle{
-    font-size: 17px;
+.navigate{
+    text-decoration: none;
+    color: black;
 }
 
-.title{
+.subscribe1{
     position: absolute;
-    color: green;
-    font-size: 500px;
-    padding-left: 40px;
+    color: white;
+    padding-left: 20px;
+    font-family: cursive;
+    text-shadow: 2px 2px 2px black, 3px 1px 7px black;
 }
 
-.XDiavel3{
+.subscribe2{
     position: absolute;
-    height: 300px;
-    width: 300px;
+    color: white;
+    padding-left: 20px;
+    font-family: cursive;
+    text-shadow: 2px 2px 2px black, 3px 1px 7px black;
+}
+
+.subscribe3{
+    position: absolute;
+    color: white;
+    padding-left: 20px;
+    font-family: cursive;
+    text-shadow: 2px 2px 2px black, 3px 1px 7px black;
+}
+
+.carousel{
+    position: relative;
+    max-width: 1650px;
+    max-height: 1050px;
+}
+
+.arrowleft{
+    position: relative;
+    bottom: 500px;
+    height: 40px;
+    width: 40px;
+    z-index: 5;
+}
+
+.arrowright{
+    position: relative;
+    bottom: 540px;
+    left: 1610px;
+    height: 40px;
+    width: 40px;
+    z-index: 5;
+}
+
+.wheel, .charac1, .charac2, .charac3, .charac4, .charac5, .charac6, .charac7{
+    font-family: fantasy;
+    text-decoration: underline;
+}
+
+.wheel1, .charac11, .charac22, .charac33, .charac44, .charac55, .charac66, .charac77{
+    font-family: cursive;
+}
+
+.mainpage{
+    font-family: fantasy;
+    text-decoration: none;
+    color: black;
+}
+
+.bg{
+    background-color: dimgrey;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.copytitle{
+    text-align: center;
+    padding-top: 70px;
+    font-family: fantasy;
+    font-size: 60px;
+}
+
+.terms{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
 }
