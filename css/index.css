@@ -1,13 +1,50 @@
-#logo{
+.logo{
+    position: absolute;
     font-family: fantasy;
     font-size: 50px;
     text-decoration: none;
     color: black;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.sublogo{
+    position: absolute;
+    font-family: fantasy;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+}
+
+.banner{
+    max-width: 1650px;
+    max-height: 1070px;
+}
+
+.menu{
+    margin-left: 1400px;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+}
+
+.toptitle{
+    position: absolute;
+    padding-top: 720px;
+    margin-left: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black, 3px 1px 7px black;
 }
 
 .toptext{
+    padding-top: 765px;
+    position: absolute;
+    margin-left: 20px;
+    color: white;
     font-family: cursive;
     font-size: 20px;
+    text-shadow: 3px 3px 3px black, 4px 2px 8px black;
 }
 
 .sublogo{
