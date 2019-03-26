@@ -1,50 +1,70 @@
-.logo{
-    position: absolute;
-    font-family: fantasy;
-    font-size: 50px;
-    text-decoration: none;
-    color: black;
-    padding-top: 30px;
-    margin-left: 20px;
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One');
+
+header .banner{
+    background-image: url(../ducati/xdiavel-s1.jpg);
+    min-height: 900px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
 }
 
-.sublogo{
-    position: absolute;
-    font-family: fantasy;
-    font-size: 50px;
+#home, #menu, #contact, #aboutus{
     text-decoration: none;
     color: black;
-    padding-top: 30px;
+    text-decoration: underline;
 }
 
-.banner{
-    max-width: 1650px;
-    max-height: 1070px;
+header .menu a:hover{
+    font-size: 20px;
 }
 
 .menu{
-    margin-left: 1400px;
+    font-family: 'Anton';
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+header .logo{
     position: absolute;
-    font-size: 20px;
-    color: white;
+    font-family: 'Anton';
+    font-size: 70px;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    margin-left: 50px;
+    display: inline;
+}
+
+header sub .sublogo{
+    position: absolute;
+    font-family: fantasy;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
 }
 
 .toptitle{
     position: absolute;
-    padding-top: 720px;
-    margin-left: 20px;
+    font-family: 'Fjalla One';
+    padding-top: 690px;
+    margin-left: 22px;
     color: white;
     text-shadow: 2px 2px 2px black, 3px 1px 7px black;
+    margin: 0 auto;
 }
 
 .toptext{
-    padding-top: 765px;
+    padding-top: 725px;
     position: absolute;
     margin-left: 20px;
     color: white;
-    font-family: cursive;
-    font-size: 20px;
-    text-shadow: 3px 3px 3px black, 4px 2px 8px black;
+    font-family: 'Fjalla One';
+    font-size: 22px;
+    text-shadow: 2px 2px 2px black, 3px 1px 7px black;
+    margin: 0 auto;
 }
 
 .sublogo{
@@ -53,8 +73,13 @@
 }
 
 .navigate{
+    display: inline;
     text-decoration: none;
     color: black;
+}
+
+body{
+    margin: 0;
 }
 
 .subscribe1{
@@ -121,6 +146,8 @@
 
 .bg{
     background-color: dimgrey;
+    margin: 0;
+    padding: 0;
 }
 
 .copyright{
